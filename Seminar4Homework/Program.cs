@@ -1,31 +1,32 @@
-﻿/*int number;
-int step;
-int count = 1;
-int result = number;
-
-while (count < step)
-{
-    result = result * number;
-    count++;
-}
-
-Console.WriteLine("Enter number: ");
-int number = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Enter step: ");
-int step = Convert.ToInt32(Console.ReadLine());
-int result = Exponenta(number);
-Console.WriteLine($"Exponenta: {result}");
-*/
+﻿// Напишите программу, которая принимает 
+//на вход два числа (A и B) и возводит число A в натуральную степень B.
 
 
+Console.WriteLine("Enter A: ");
+int a = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Enter B: ");
+int b = Convert.ToInt32(Console.ReadLine());
+int stepen = a;
 
-
-/*int [] NewArray = Enumerable.Range(1, 8).ToArray();
-{
-    for (int i = 0; i < NewArray.Length; i++)
+for (int i = 1; i < b; i++)
     {
-        Console.WriteLine(NewArray[i]);
+    stepen = stepen * a;
+    }
+Console.WriteLine("A in stepen B: " + stepen);
+
+
+//Напишите программу, которая задаёт массив из 8 элементов и выводит их на экран.
+
+
+int [] array = newArray[8];
+{
+    for (int i = 0; i < array.Length; i++)
+    {
+       array[i] = newArray Random(). Next(0,9);
+       
     }
 }
-Console.ReadLine();
-/*
+return array[i];
+
+
+
